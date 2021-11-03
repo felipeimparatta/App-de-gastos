@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi economia</title>
+    <link rel="stylesheet" href="gastos.css">
+</head>
+
+<body>
+    <h1>Mi economia</h1>
+
+    <form id="transactionForm">
+        <div class="formulario">
+            <div>
+                Tipo de transaccion
+                <label for="ingreso">Ingreso</label>
+                <input id="ingreso" type="radio">
+                <label for="egreso">Egreso</label>
+                <input id="egreso" type="radio">
+            </div>
+
+           
+
+            <div class="formulario">
+                <label for="descriptionType">Descripcion</label>
+                <input id="descriptionType">
+            </div>
+
+            <div class="formulario">
+                <label for="montoType">Monto</label>
+                <input id="montoType" type="number">
+            </div>
+
+            <div class="formulario">
+                <label for="categoryType">Categoria</label>
+                <input id="categoryType">
+            </div>
+
+            <div >
+                <button id="botonEnvio">Añadir</button>
+            </div>
+        </div>
+    </form>
+
+<table id="tableFormat">
+
+    <tr>
+        <th>Tipo</th>
+        <th>Descripcion</th>
+        <th>Monto</th>
+        <th>Categoria</th>
+    </tr>
+    <tr>
+        <td>Ingreso</td>
+        <td>Sueldo</td>
+        <td>1000</td>
+        <td>Trabajo</td>
+    </tr>
+
+    <tr>
+        <td>Egreso</td>
+        <td>BigMac</td>
+        <td>8</td>
+        <td>Comida</td>
+    </tr>
+
+    
+</table>
+
+
+<script src="gastos.js"></script>
+</body>
+
+</html>
